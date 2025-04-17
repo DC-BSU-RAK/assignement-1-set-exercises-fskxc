@@ -1,0 +1,110 @@
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Tahoma;
+    text-decoration: underline;
+    color: white;
+    padding-top: 40px;
+    /* the title in the header gets center-aligned with a unique font that is underlined with
+    a white color behind a purple background with a slight padding */
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* this is for filling any gap at the top with the background color instead of white */
+}  
+.categories{
+    text-align: center;
+    /* categories in the nav bar get center aligned */
+}
+.categories a{
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    /* the categories get a unique font with some padding as shown along with no text
+    decoration displayed as inline-flex */
+}
+header{
+    background-color: rgb(23, 7, 43);
+    /* the purple background for the header */
+}
+#title2{
+    padding-top: 20px;
+    margin-left: 35px;
+    font-family: Tahoma;
+    text-decoration: underline;
+}
+.body{
+    margin-left: 35px;
+    font-family: Arial;
+    font-size: larger;
+    padding-top: 20px;
+    width: 770px;
+    word-wrap: break-word;
+    line-height: 140%;
+    /* the body text has the arial font with a slight margin for aesthetics
+    along with it being adjusted by the width and word wrap */
+}
+.img1 img{
+    margin-left: 35px;
+    width: 745px;
+    padding-top: 10px;
+    /* the landscape image has a slight margin with a reasonable width and height, and a very slight padding */
+}
+.body2{
+    background-color: rgb(23, 45, 103);
+    height: 458px;
+    width: 726px;
+    margin-left: 810px;
+    margin-top: -460px;
+    /* huge margins are given to adjust the background color next to the first body text
+    including the width and height of the section being adjusted */
+}
+.heading1 h1{
+    margin-left: 845px;
+    margin-top: -430px;
+    font-family: Tahoma;
+    color: white;
+    text-decoration: underline;
+    /* once again, huge margins are given to adjust the text evenly and some text decoration is added */
+}
+.heading1 p{
+    margin-left: 845px;
+    padding-top: 30px;
+    font-family: arial;
+    color:white;
+    font-size: larger;
+    /* big margin and a slight padding is given with an arial font */
+}
+.heading1 img{
+    height: 180px;
+    margin-left: 845px;
+    padding-top: 40px;
+}
+.heading1 #img3{
+    margin-top: -490px;
+    margin-left: 5px;
+    /* a negative margin is given to adjust the image accoridingly */
+}
+.footer1{
+    background-color: rgb(140, 21, 233);
+    height: 50px;
+    width: 1536px;
+    margin-top: 25px;
+    padding-top: 3px;
+    /* a light purple background color is added with the width covering the base of the whole page while having 
+    a slight height */
+}
+.footertext{
+    text-align: center;
+    font-family: Arial;
+    font-size: x-large;
+    margin-top: -38px;
+    color: white;
+    /* lastly the text is changed to arial with the font being large and center aligned having a white color */
+}

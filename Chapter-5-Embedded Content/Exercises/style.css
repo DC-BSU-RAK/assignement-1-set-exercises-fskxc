@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    position: relative; 
+}
+
+/* Add this pseudo-element: */
+body::before {
+    content: "";
+    background-image: url(space.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);   /* Adjust the value for more or less blur */
+    position: fixed;      /* Ensures it covers the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;        /* Places it behind all other content */
+    /* the background is made blur for more aesthetic look */
+}
+.video video{
+    margin-top: 10vh;
+    margin-left: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
+  /* margin is added for aliging it in the middle vertically and horizontally */
+}
+#p1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* the link has no text decoration and has an original color white */
+}
+a:hover{
+    color: gray;
+    /* when hovered over the link, color turns gray */
+}

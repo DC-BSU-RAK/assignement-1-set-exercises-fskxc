@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(90, 90, 90); 
+    /* sets the background color */
+}
+.container .img1{
+    width: 300px;
+    height: auto;
+    border: 4px solid black;
+    margin-left: 190px;
+    margin-top: 130px;
+    filter: grayscale(60%);
+    /* the first image is adjusted to 300px width with an automatic height along with it being margined
+    a border is added to make it look more bold and aesthetic
+    lastly, a grayscale filter is added */
+} 
+.container .img2{
+    height: 450px;
+    width: auto;
+    border: 4px solid black;
+    margin-left: 70px;
+    filter: brightness(50%);
+    /* the second image is adjusted to 450px height with auto width, and being left-margined
+    a border is added for an aesthetic look
+    a brightness filter is added */
+}
+.container .img3{
+    height: 450px;
+    width: auto;
+    border: 4px solid black;
+    margin-left: 70px;
+    filter:opacity(60%);
+    /* the third image is adjusted to the same height as the second image with auto width
+    its similarly margined as the second image and an opacity filter is added */
+}
+.firstlink{
+    margin-left: 202.5px;
+    margin-top: 20px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    /* the first reference link is styled bold and with a unique font */
+}
+#link1{
+    color: black;
+    text-decoration: none;
+    /* the link is seperately targetted with an ID making its color black with no text decoration */
+}
+#link1:hover{
+    color: white;
+    /* when hovered over the link, the color changes to white */
+}
+.secondlink{
+    margin-left: 592.5px;
+    margin-top: -22px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    /* the second reference link is styled bold and with a unique font */
+}
+#link2{
+    color: black;
+    text-decoration: none;
+    /* the link is seperately targetted with an ID making its color black with no text decoration */
+}
+#link2:hover{
+    color: white;
+    /* when hovered over the link, the color changes to white */
+}
+.thirdlink{
+    margin-left: 985.5px;
+    margin-top: -22px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    /* the second reference link is styled bold and with a unique font */
+}
+#link3{
+    color: black;
+    text-decoration: none;
+    /* the link is seperately targetted with an ID making its color black with no text decoration */
+}
+#link3:hover{
+    color: white;
+    /* when hovered over the link, the color changes to white */
+}

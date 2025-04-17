@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for the whole page */
+body {
+  display: flex; 
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Make sure body takes at least the full height of the screen */
+  background-color: #f5f5f5; /* Light grey background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* Style for the main container */
+.container {
+  width: 600px; /* Set container width */
+  background-color: #445a6f; /* Dark blue-grey background */
+  color: #ffffff; /* White text color */
+  padding: 25px; /* Space inside the container */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
+
+/* Style for the main heading */
+h1 {
+  text-align: center; /* Centers the text */
+  background-color: #000; /* adds a black background */
+  padding: 10px; /* sets a space inside the heading */
+  border-radius: 5px; /* curves the corners of the heading */
+  margin-bottom: 20px; /* adds a space below the heading */
+}
+
+/* Style for the input wrapper section */
+.wrapper {
+  display: flex;
+  justify-content: space-around; /* Spaces out the items accordingly */
+  margin-bottom: 30px; /* adds a space below this section */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens for an organized look */
+}
+
+/* Style for each input group */
+.input-group {
+  display: flex; 
+  flex-direction: column; /* Stacks the items vertically */
+  margin: 10px; /* Margin around each input group */
+  width: 45%; /* Make each input group take 45% of the width */
+}
+
+/* Style for input labels */
+.input-group label {
+  margin-bottom: 8px; /* adds a space below the label */
+  font-weight: bold; /* makes the label text bold */
+}
+
+/* Style for the input fields */
+.input-group input {
+  padding: 8px; /* adds a space inside the input */
+  border: none; /* removes the original border */
+  border-radius: 4px; /* curves the corners of the input */
+  transition: border 0.3s, box-shadow 0.3s; /* Animate changes in border and shadow */
+}
+
+/* Style for input fields when they are in focus */
+.input-group input:focus {
+  outline: none; /* removes any outline for this */
+  border: 2px solid #66afe9; /* adds a blue border */
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6); /* Adds a light blue shadow for an aesthetic look */
+}
+
+/* Style for error messages */
+.error-message {
+  font-size: 0.9em; /* Slightly smaller font size */
+  color: #ff4d4d; /* adds a red text for error */
+  margin-top: 5px; /* includes a space above the error message */
+  min-height: 18px; /* reserves a space for error message */
+}
+
+/* Style for the button group */
+.btn-group {
+  text-align: center; /* Centers the buttons */
+  margin-bottom: 20px; /* adds a space below the buttons */
+}
+
+/* Style for the buttons */
+.btn-group button {
+  background-color: blue; /* includes a blue background for buttons */
+  color: #fff; /* the text color is white */
+  padding: 10px 20px; /* adds a space inside the button */
+  border: 2px solid #000; /* adds a slightly thick and a black border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Shows the pointer on hover */
+  font-size: 16px; /* sets the font size */
+  margin: 0 10px; /* adds a space between buttons */
+  transition: background-color 0.3s, color 0.3s; /* includes an animation for the background and text color changes */
+}
+.btn-group button:hover {
+  background-color: chartreuse; /* Changes background to chartreuse when hovered over it */
+  color: #000; /* Changes text color to black when hovered over it */
+}
+
+/* Style for the result section */
+.result {
+  text-align: center; /* Centers the text in the result */
+}
+
+/* Style for the result headings */
+.result h2 {
+  margin: 10px 0; /* adds a space above and below each heading */
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%; 
+  }
+  .input-group {
+    width: 90%; 
+  }
+}

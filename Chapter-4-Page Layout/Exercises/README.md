@@ -21,7 +21,7 @@ These tags might come in useful: `<header>` `<nav>` `<main>` `<section>` `<artic
 - Logo and Heading font: "Tahoma", 700 (Apple users, you may have a tad bit more work to do here)
 - Body font: "Arial", 400
 - Header: #17072b
-- Sidebar: #172d67
+- Sidebar:rgb(23, 45, 103)
 - Footer: #8c15e9
 - Text: #000000 and #FFFFFF
 

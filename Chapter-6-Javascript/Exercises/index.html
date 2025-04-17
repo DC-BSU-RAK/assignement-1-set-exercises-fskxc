@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petrol Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <!-- Main container starts here -->
+  <main class="container" role="main">
+    <!-- Main heading -->
+    <h1>Petrol Calculator</h1>
+    <!-- This is the form -->
+    <form id="calculatorForm" novalidate>
+      <!-- Start of input section -->
+      <section class="wrapper">
+        <!-- Group for petrol price input -->
+        <div class="input-group">
+          <!-- Label for petrol price -->
+          <label for="Petrol_Price">Petrol Price per Litre ($)</label>
+          <!-- Input for petrol price -->
+          <input id="Petrol_Price" type="number" placeholder="1.72" step="0.01" min="0" aria-describedby="priceError" required>
+          <!-- Error message for petrol price -->
+          <small id="priceError" class="error-message" aria-live="polite"></small>
+        </div>
+        <!-- Group for litres input -->
+        <div class="input-group">
+          <!-- Label for litres -->
+          <label for="liters">Litres</label>
+          <!-- Input for litres -->
+          <input id="liters" type="number" placeholder="1" step="0.01" min="0" aria-describedby="litersError" required>
+          <!-- Error message for litres -->
+          <small id="litersError" class="error-message" aria-live="polite"></small>
+        </div>
+      </section>
+      <!-- Button area -->
+      <section class="btn-group">
+        <!-- Button to calculate the total -->
+        <button type="button" id="calcBtn">Calculate Total Amount</button>
+        <!-- Button to reset the form -->
+        <button type="reset" id="resetBtn">Reset</button>
+      </section>
+      <!-- Area for showing the result -->
+      <section class="result">
+        <!-- Title for the result -->
+        <h2>Total Amount:</h2>
+        <!-- Display the total amount here -->
+        <h2 id="totalAmount">$0.00</h2>
+      </section>
+    </form>
+    <!-- End of form -->
+  </main>
+  <!-- End of main container -->
+</body>
+</html>

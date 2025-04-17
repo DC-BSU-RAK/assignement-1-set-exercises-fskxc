@@ -1,0 +1,110 @@
+header{
+    margin-top: 0;
+    padding: 0;
+    height: 40px;
+    background-color: rgb(74, 74, 74);
+    align-content: center;
+    font-weight: bolder;
+    font-family: "Playfair Display";
+    /* sets the navigation links right at the top with a grey-ish background color along with a unique font family aligned at the center */
+}
+.navigation{
+    font-size: larger;
+    text-align: center;
+}
+a{
+    padding: 20px;
+    color:rgb(31, 31, 31);
+    text-decoration: none;
+    /* padding is added to provide a slight space between the texts to not make them look too isolated with no text decoration */
+}
+a:hover{
+    color:rgb(255, 255, 255);
+    /* turns the text into white when you hover over it */
+}
+#plot{
+    font-size: larger;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+#cast{
+    text-align: center;
+    line-height: 70px;
+    font-family: "Playfair Display";
+    padding-right: 20px;
+}
+#casttitle{
+    font-size: xx-large;
+}
+li{
+    list-style: none;
+}
+#maincast{
+    padding-right: 30px;
+    font-size: larger;
+}
+#characters{
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: larger;
+    line-height: 60px;
+}
+#chartitle{
+    font-size: xx-large;
+}
+#reviews{
+    text-align: center;
+    font-family: "Playfair Display";
+}
+#reviewheading{
+    font-size: xx-large;
+}
+#reviewtitle{
+    font-size: 180%;
+}
+#review1{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: larger;
+}
+#review2{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: larger;
+}
+#review3{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: larger;
+}
+#webtitle{
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: xx-large;
+}
+.button{
+    background-color: rgb(107, 107, 107);
+  color: black;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-family: "Playfair Display";
+    font-size: larger;
+    margin-left: 520px;
+    margin-top: 20px;
+    font-weight: bold;
+    /* styles the button so that the background color is grey-ish with the text color being black and the border
+    being think with the same color, no text decoration is added and a unique font style is given to the button */
+  }
+  
+.button:hover, .button:active{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    /* sets the background color to black and text color to white when hovered over it */
+}

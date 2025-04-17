@@ -1,0 +1,118 @@
+#header{
+    font-family: "Leckerli One", cursive;
+    font-size: 45px;
+    font-weight:bold;
+    margin-left: 70px;
+}  /* adds a unique cursive font for the recipe name with a bold look while a slight margin is given for unique appearance */
+#image{
+    margin-left: 40px;
+} /* margins the image to the right */
+
+.fa-solid, .fa-utensils{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: x-large;
+} /* margins the icon and increases the size for a bold and a clear look */
+#text1{
+    margin-left: 112px;
+    margin-top: -22px;
+    font-family: "Kaushan Script", cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+.fa-regular, .fa-clock{
+    margin-left: 220px;
+    position:relative; 
+    top:-49px; 
+    left:0px; 
+    font-size: x-large;
+} /* margins the icon and increases the size for a clearer look */
+#text2{
+    margin-left: 256px;
+    margin-top: -72px;
+    font-family: "Kaushan Script", cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+#header2{
+    margin-left: 108px;
+    font-family: "Petit Formal Script";
+    font-size: xx-large;
+    /* slight margin to the header for the ingredients */
+}
+.ingredients{
+    margin-left: 85px;
+    font-family: "Kaushan Script", cursive;
+    margin-top: -20px;
+    font-size: large;
+    line-height: 150%;
+}
+#header3{
+    margin-left: 550px;
+    margin-top: -400px;
+    font-family: "Petit Formal Script";
+    font-size: 200%;
+}
+.method{
+    margin-left: 525px;
+    font-family: "Petit Formal Script";
+    font-size:95%;
+    font-weight: bold;
+    width: 420px;
+    word-wrap:break-word;
+    line-height: 170%;
+    /* margins the text to the left, width of the text is adjusted and is made up for by word-wrap to give an organized look */
+}
+#header4{
+    margin-left: 100px;
+    font-family: "Kaushan Script";
+    font-size: 230%;
+}
+
+#p1{
+    margin-left: 100px;
+    font-family: "Kaushan Script";
+    font-size: 170%;
+    font-weight:bolder;
+}
+#p2{
+    margin-left: 100px;
+    font-family: "Kaushan Script";
+    font-size: 150%;
+}
+#p3{
+    margin-left: 220px;
+    margin-top: -126px;
+    font-family: "Kaushan Script";
+    font-size: 170%;
+    font-weight: bolder;
+}
+#p4{
+    margin-left: 220px;
+    font-family: "Kaushan Script";
+    font-size: 150%;
+}
+#p5{
+    margin-left: 315px;
+    margin-top: -126px;
+    font-family: "Kaushan Script";
+    font-size: 170%;
+    font-weight: bolder;
+}
+#p6{
+    margin-left: 315px;
+    font-family: "Kaushan Script";
+    font-size: 150%;
+}
+#p7{
+    margin-left: 420px;
+    margin-top: -126px;
+    font-family: "Kaushan Script";
+    font-size: 170%;
+    font-weight: bolder;
+}
+#p8{
+    margin-left: 420px;
+    font-family: "Kaushan Script";
+    font-size: 150%;
+}
